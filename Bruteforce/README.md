@@ -1,2 +1,2 @@
 # Bruteforce
-ascripts on bruteforce challenges
+lla scripts on bruteforce challenges
