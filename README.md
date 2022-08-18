@@ -5,4 +5,4 @@ find nome in all root
 └─$ find / -iname '*nome*' 2&>/dev/null
 
 unbind a port used early, for example the 111
-user -k 111/tcp
+fuser -k 111/tcp
