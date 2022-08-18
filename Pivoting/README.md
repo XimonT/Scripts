@@ -2,7 +2,7 @@
 
 These tools were used in [Hack The Box](https://www.hackthebox.com/) challenges:
 
-### [`chisel`](ssti_payload_generator_java_springboot.py)
+## [`chisel`](ssti_payload_generator_java_springboot.py)
 
 Chisel is a fast TCP/UDP tunnel, transported over HTTP, secured via SSH.
 Single executable including both client and server. Written in Go (golang).
@@ -14,7 +14,7 @@ Chisel is mainly useful for passing through firewalls, though it can also be use
 
 ---
 
-### [`dembe`](https://github.com/BloodhoundAllfather/dembe.git)
+## [`dembe`](https://github.com/BloodhoundAllfather/dembe.git)
 
 Dembe is a TCP tunnel application written in C.
 It makes two TCP connections (either via listening or connecting) and sends out the data received from one end to another with its muti-threaded design.
