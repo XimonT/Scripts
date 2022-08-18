@@ -17,3 +17,11 @@ It allows you to see commands run by other users, cron jobs, etc. as they execut
 LinPEAS is a script that search for possible paths to escalate privileges on Linux/Unix*/MacOS hosts
 
 > [`source`](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
+
+---
+
+## [`mysql_as_root`](mysql_as_root.c)
+
+when mysql is run with root privileges we can use it to read files that we wouldn't be able to
+
+> [`source`](https://www.exploit-db.com/exploits/1518)
