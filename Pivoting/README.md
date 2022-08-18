@@ -14,4 +14,10 @@ Chisel is mainly useful for passing through firewalls, though it can also be use
 
 ---
 
-### [`ToDo`](ToDo)
+### [`dembe`](https://github.com/BloodhoundAllfather/dembe.git)
+
+Dembe is a TCP tunnel application written in C.
+It makes two TCP connections (either via listening or connecting) and sends out the data received from one end to another with its muti-threaded design.
+It will automatically connect/listen if connection gets terminated.
+
+> [`source`](https://github.com/BloodhoundAllfather/dembe)
