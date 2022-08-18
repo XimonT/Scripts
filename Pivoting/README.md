@@ -2,7 +2,7 @@
 
 These tools were used in [Hack The Box](https://www.hackthebox.com/) challenges:
 
-## [`chisel`](ssti_payload_generator_java_springboot.py)
+## [`chisel`](https://github.com/jpillora/chisel)
 
 Chisel is a fast TCP/UDP tunnel, transported over HTTP, secured via SSH.
 Single executable including both client and server. Written in Go (golang).
