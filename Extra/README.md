@@ -15,4 +15,22 @@ the location of the upload folder was in `/source/app/public/uploads/<new_file>`
 
 ---
 
-## [`ToDo`](ToDo)
+## [`Crack JWT with John`]()
+
+to crack the jwt just copy/paste the token inside a text file called jwt.txt
+and run john with a wordlist, we can use rockyou.txt as always:
+`john jwt.txt —wordlist=wordlist.txt —format=HMAC-SHA256`
+
+> [`source`](https://blog.pentesteracademy.com/hacking-jwt-tokens-bruteforcing-weak-signing-key-johntheripper-89f0c7e6a87)
+
+---
+
+##[`Crack JWT with jwt-cracker`]()
+
+to crack a jwt hashed with only numbers we can use jwt-cracker a tool we can just install from [`github`](https://github.com/lmammino/jwt-cracker)
+just crack the jwt as it is from the terminal
+`jwt-cracker "eyJhbGc.<SNAP>`
+
+> [`source`](https://github.com/lmammino/jwt-cracker)
+
+---
