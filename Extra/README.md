@@ -25,7 +25,7 @@ and run john with a wordlist, we can use rockyou.txt as always:
 
 ---
 
-##[`Crack JWT with jwt-cracker`]()
+## [`Crack JWT with jwt-cracker`]()
 
 to crack a jwt hashed with only numbers we can use jwt-cracker a tool we can just install from [`github`](https://github.com/lmammino/jwt-cracker)
 just crack the jwt as it is from the terminal
